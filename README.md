@@ -1,6 +1,6 @@
 # UART Tetris 2P
 
-> Created as a final project for COM SCI 152B at UCLA by Brandon Cheung and Rahul Mohan.
+> Created as a final project for COM SCI 152B at UCLA by Brandon Cheung and Rahul Mohan. WINTER 2026
 
 Two-player simultaneous Tetris running on a **Digilent Basys 3** via a MicroBlaze soft-core processor. Both boards render side-by-side in a single PuTTY terminal over USB-UART using VT100 ANSI escape codes. Supports four input device types with dynamic controller assignment. No recompilation needed!
 
