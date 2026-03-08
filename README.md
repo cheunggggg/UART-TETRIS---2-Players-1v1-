@@ -156,7 +156,9 @@ At 9600 baud a full two-board frame takes ~1 second, which sets the effective fr
 | `ja[0:7]` | B13/F14/D17/E17/G13/C17/D18/E18 | PMOD JA → PmodKYPD |
 | `push_buttons_4bits_tri_i[0:4]` | U18/T18/W19/T17/W17 | BTNU/L/R/D + extra |
 | `dip_switches_16bits_tri_i[0:1]` | V17/V16 | SW0/SW1 |
-
+```
+<img width="1246" height="483" alt="image" src="https://github.com/user-attachments/assets/936a0faa-ee5d-4606-9d3d-1e5791d4cf30" />
+```
 ---
 
 ## Build & Deploy
