@@ -109,7 +109,7 @@ Boot
       └─► Home Menu      (shows per-player controls based on assigned devices)
            └─► Gameplay  (simultaneous 2P Tetris)
                 └─► Game Over Screen  (winner + scores)
-                     └─► Home Menu    (loop)
+                     └─► Connect Screen    (loop)
 ```
 
 ---
