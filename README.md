@@ -178,3 +178,4 @@ At 9600 baud a full two-board frame takes ~1 second, which sets the effective fr
 - **BTNC unusable** — hardwired to CPU reset, only 4 buttons available for gameplay
 - **BT2 SPP mode only** — Bluetooth input requires a PuTTY relay, not direct HID
 - **Fixed random seed** (`srand(1)`) — piece sequence is deterministic per session
+- **PmodKYPD partial key faults** — several keys on the PmodKYPD module did not register reliably during testing, so controls were mapped to keys verified to work correctly (A, 5, B, 8, F, 2) rather than the most intuitive layout. If using a different keypad unit, the keytable and key bindings in TETRIS.c may need to be remapped.​​​​​​​​​​​​​​​​
