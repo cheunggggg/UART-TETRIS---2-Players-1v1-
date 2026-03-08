@@ -58,12 +58,12 @@ USB keyboard → PC → PuTTY → FPGA over UART at 9600 baud.
 | `E` | Hard Drop |
 | `P` | Continue / Return Home |
 
-### Bluetooth Keyboard (PmodBT2 / RN-42)
+### Bluetooth Keyboard (PmodBT2) (JA)
 Pair the module as **TetrisBT** (PIN: `1234`). It creates a virtual Bluetooth COM port on Windows. Open a second PuTTY session on that COM port at 9600 baud — keystrokes are forwarded to the FPGA via XUartNs550. Same key bindings as the wired keyboard.
 
 > The RN-42 operates in **SPP mode** (not HID). Any keyboard input through the paired PuTTY window works as a controller.
 
-### PmodKYPD 16-Key Keypad (PMOD JA)
+### PmodKYPD 16-Key Keypad (PmodKYPD) (JB)
 Keytable: `0FED789C456B123A`
 
 | Key | Action |
