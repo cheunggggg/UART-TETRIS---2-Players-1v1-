@@ -1,6 +1,6 @@
 # UART Tetris 2P
 
-Two-player simultaneous Tetris running on a **Digilent Basys 3 (Artix-7 FPGA)** via a MicroBlaze soft-core processor. Both boards render side-by-side in a single PuTTY terminal over USB-UART using VT100 ANSI escape codes. Supports four input device types with dynamic controller assignment — no recompilation needed.
+Two-player simultaneous Tetris running on a **Digilent Basys 3** via a MicroBlaze soft-core processor. Both boards render side-by-side in a single PuTTY terminal over USB-UART using VT100 ANSI escape codes. Supports four input device types with dynamic controller assignment. No recompilation needed!
 
 ```
 PLAYER 1              PLAYER 2
@@ -21,7 +21,7 @@ Score:0               Score:200
 
 | Component | Details |
 |-----------|---------|
-| FPGA Board | Digilent Basys 3 (Artix-7 XC7A35T) |
+| FPGA Board | Digilent Basys 3 |
 | Processor | MicroBlaze soft-core, 100 MHz |
 | EDA Tool | Vivado 2018.2 + Xilinx SDK |
 | Display | PuTTY terminal via USB-UART at 9600 baud |
@@ -127,7 +127,7 @@ At 9600 baud a full two-board frame takes ~1 second, which sets the effective fr
 
 | File | Description |
 |------|-------------|
-| `TETRIS.c` | Full game source — peripheral I/O, device abstraction, game logic, rendering (~850 lines) |
+| `TETRIS.c` | Full game source — peripheral I/O, device abstraction, game logic, rendering |
 | `constraints.xdc` | Vivado XDC pin constraints for Basys 3 |
 
 ### Key `TETRIS.c` Constants
