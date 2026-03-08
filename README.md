@@ -154,7 +154,7 @@ At 9600 baud a full two-board frame takes ~1 second, which sets the effective fr
 | `usb_uart_txd` | A18 | Terminal TX |
 | `jb[0:7]` | A14/A16/B15/B16/A15/A17/C15/C16 | PMOD JB → PmodBT2 |
 | `ja[0:7]` | B13/F14/D17/E17/G13/C17/D18/E18 | PMOD JA → PmodKYPD |
-| `push_buttons_4bits_tri_i[0:4]` | U18/T18/W19/T17 | BTNU/L/R/D |
+| `push_buttons_4bits_tri_i[0:3]` | U18/T18/W19/T17 | BTNU/L/R/D |
 | `dip_switches_16bits_tri_i[0:1]` | V17/V16 | SW0/SW1 |
 
 ---
